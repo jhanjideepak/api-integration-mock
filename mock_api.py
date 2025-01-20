@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/api/fitness_data", methods=["GET"])
 def get_fitness_data():
     """
-    Simulate fitness data for 100 users.
+    Simulate fitness data for n users.
     Returns JSON with a list of user data records.
     """
 
